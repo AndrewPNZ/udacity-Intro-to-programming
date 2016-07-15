@@ -1,0 +1,110 @@
+/* A nice tidy start */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+* {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-family: 'Secular One', sans-serif;
+	font-size: 2em;
+	line-height: 1.2em;
+}
+
+h5 {
+	font-size: 0.8em;
+}
+
+
+.fullscreen-container {
+  background: #0479cc ; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #0479cc , #6bc0fc ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #0479cc , #6bc0fc ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #0479cc , #6bc0fc ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #0479cc , #6bc0fc ); /* Standard syntax */
+
+}
+
+.fullscreen-header {
+  background-color: #02365b;
+}
+
+.pagewidth-header {
+	height: 100px;
+	padding: 15px 0px;
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.pagewidth-header h1 {
+  color:#fff;
+	padding-left: 10px;
+}
+
+.pagewidth-header h5 {
+	padding-top: 55px;
+	color:#fff;
+}
+
+.header-left {
+	width: 50%;
+}
+
+.header-right {
+	width: 50%;
+	text-align: right;
+	float: right;
+}
+
+.pagewidth-container {
+	margin: 0 auto;
+	max-width: 900px;
+	padding: 15px;
+}
+
+.stage {
+	background-color: #fff;
+	border-radius: 5px;
+	padding:15px;
+	margin-bottom:15px;
+}
+
+.stage h2 {
+	font-size: 1.4em;
+	font-style: italic;
+	border-bottom: 1px solid rgba(208, 194, 194, 0.50);
+	margin-bottom: 15px;
+}
+
+.stage ul	{
+	margin: 10px 0px 0px 50px;
+}
